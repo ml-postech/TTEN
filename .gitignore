@@ -13,22 +13,12 @@
 ehthumbs.db
 Thumbs.db
 
-# wandb
-.pt
-.log
-checkpoint.pt
-*.sh
-*.png
+*.pt
 *.log
-*.svg
-*.ipynb
+checkpoint.pt
 
 __pycache__/*
 log/*
-saved_emb/*
-saved_layer/*
-saved_arr/*
-saved_mag/*
 saved_checkpoint/*
 sweep/*
 wandb/*

@@ -12,6 +12,8 @@ from sklearn.model_selection import train_test_split
 import os
 
 np.set_printoptions(suppress=True)
+os.makedirs('saved_checkpoint', exist_ok=True)
+
 if args.gpu_id != '-1':
     device = 'cuda:' + args.gpu_id
 else:
