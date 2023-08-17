@@ -1,0 +1,35 @@
+# data files #
+##############
+.csv
+.pyc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# wandb
+.pt
+.log
+checkpoint.pt
+*.sh
+*.png
+*.log
+*.svg
+*.ipynb
+
+__pycache__/*
+log/*
+saved_emb/*
+saved_layer/*
+saved_arr/*
+saved_mag/*
+saved_checkpoint/*
+sweep/*
+wandb/*
+
