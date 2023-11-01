@@ -30,5 +30,11 @@ pip install -r requirements.txt
 
 ## Citation
 ```
-   
+@inproceedings{kim2023test,
+  title={Test-Time Embedding Normalization for Popularity Bias Mitigation},
+  author={Kim, Dain and Park, Jinhyeok and Kim, Dongwoo},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={4023--4027},
+  year={2023}
+}
 ```
