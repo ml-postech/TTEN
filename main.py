@@ -256,7 +256,6 @@ all_hitrate_40 = 0
 all_recall_40 = 0
 all_ndcg_40 = 0
 all_c_ratio = np.zeros(5)
-all_conf_rate = 0
 all_rsp, all_reo = np.zeros(5), np.zeros(5)
 recall_lst_i, ndcg_lst_i, hit_lst_i, test_item_num_lst_i = np.zeros(5), np.zeros(5), np.zeros(5), np.zeros(5)
 
@@ -311,8 +310,6 @@ if args.wandb:
         'Test_Recall':all_recall_20/all_user_num,
         'Test_Ndcg':all_ndcg_20/all_user_num,
         'Test_C_ratio':all_c_ratio[-1].item()/n_u, 
-        'Test_ConfRate':all_conf_rate/all_user_num,
         'Test_rsp': rsp,
-        'Test_reo': reo,
-        'Test_recall_cv': float(np.std(recall_lst_i) / np.mean(recall_lst_i))
+        'Test_reo': reo
         })
